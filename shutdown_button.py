@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-use_button=27                       # lowest button on PiTFT+
+#based on https://github.com/scruss/shutdown_button
+use_button=27
 
 from gpiozero import Button
 from signal import pause
