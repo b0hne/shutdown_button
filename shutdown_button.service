@@ -8,7 +8,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=root
-ExecStart=/usr/bin/python3 /usr/local/bin/shutdown_button.py
+ExecStart=/usr/bin/python3 /home/pi/git/mvg_status/shutdown_button.py
 
 [Install]
 WantedBy=multi-user.target
